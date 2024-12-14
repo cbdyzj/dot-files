@@ -6,6 +6,11 @@ PS1="%n@$(hostname):%~${ZSH_PROMPT_NEWLINE}$ "
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 autoload -U compinit && compinit
 
+# bin
+if [ -d "$HOME/bin" ]; then
+    export PATH="$HOME/bin:$PATH"
+fi
+
 # aliases
 . "$(dirname "$0")/aliases.sh"
 
