@@ -15,10 +15,8 @@ fi
 . "$(dirname "$0")/aliases.sh"
 
 # node
-NODE_PATH="$HOME/get-node"
-if [ -f "$NODE_PATH/.profile" ]; then
-    . "$NODE_PATH/.profile"
-fi
+export N_PREFIX="$HOME/.npm-packages"
+export PATH="$HOME/.npm-packages/bin:$PATH"
 
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
