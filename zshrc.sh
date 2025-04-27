@@ -23,7 +23,3 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # gradle
 alias gradle="$HOME/gradle/gradle-8.14/bin/gradle"
-
-# groovy
-export GROOVY_HOME="$HOME/groovy/groovy-4.0.21"
-alias groovy="$HOME/groovy/groovy-4.0.21/bin/groovy"
