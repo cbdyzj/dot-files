@@ -17,6 +17,7 @@ fi
 # node
 export N_PREFIX="$HOME/.npm-packages"
 export PATH="$HOME/.npm-packages/bin:$PATH"
+export PNPM_HOME="$HOME/.npm-packages/pnpm"
 
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
