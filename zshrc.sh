@@ -23,4 +23,4 @@ export PNPM_HOME="$HOME/.npm-packages/pnpm"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # gradle
-alias gradle="$HOME/gradle/gradle-8.14/bin/gradle"
+alias gradle="\$HOME/gradle/gradle-8.14.2/bin/gradle"
