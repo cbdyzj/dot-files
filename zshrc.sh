@@ -27,3 +27,6 @@ alias gradle="\$HOME/gradle/gradle-8.14.2/bin/gradle"
 
 # python
 export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+
+# env
+[ -f "$(dirname "$0")/.env" ] && source "$(dirname "$0")/.env"
