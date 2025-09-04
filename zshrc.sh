@@ -23,7 +23,7 @@ export PNPM_HOME="$HOME/.npm-packages/pnpm"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # gradle
-alias gradle="\$HOME/gradle/gradle-8.14.2/bin/gradle"
+alias gradle="\$HOME/gradle/gradle-9.0.0/bin/gradle"
 
 # python
 export PATH="$HOME/Library/Python/3.9/bin:$PATH"
