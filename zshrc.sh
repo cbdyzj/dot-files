@@ -32,4 +32,5 @@ export PATH="$HOME/Library/Python/3.9/bin:$PATH"
 [ -f "$(dirname "$0")/.env" ] && source "$(dirname "$0")/.env"
 
 # graalvm
+export GRAALVM_HOME="$HOME/Developer/graalvm-jdk-25+37.1/Contents/Home"
 export PATH="$HOME/Developer/graalvm-jdk-25+37.1/Contents/Home/bin:$PATH"
