@@ -34,3 +34,6 @@ export PATH="$HOME/Library/Python/3.9/bin:$PATH"
 # graalvm
 export GRAALVM_HOME="$HOME/Developer/graalvm-jdk-25+37.1/Contents/Home"
 export PATH="$HOME/Developer/graalvm-jdk-25+37.1/Contents/Home/bin:$PATH"
+
+# zoxide
+eval "$(zoxide init zsh)"
