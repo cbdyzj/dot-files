@@ -6,17 +6,23 @@ PS1="%n@$(hostname):%~${ZSH_PROMPT_NEWLINE}$ "
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 autoload -U compinit && compinit
 
+# aliases
+. "$(dirname "$0")/aliases.sh"
+
+# env
+[ -f "$(dirname "$0")/.env" ] && source "$(dirname "$0")/.env"
+
 # bin
 if [ -d "$HOME/bin" ]; then
     export PATH="$HOME/bin:$PATH"
 fi
 
-# aliases
-. "$(dirname "$0")/aliases.sh"
-
 # node
 export N_PREFIX="$HOME/n"
 export PATH="$HOME/n/bin:$PATH"
+
+# bun
+export PATH="$HOME/.bun/bin:$PATH"
 
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -26,9 +32,6 @@ alias gradle="\$HOME/gradle/gradle-9.1.0/bin/gradle"
 
 # python
 export PATH="$HOME/Library/Python/3.9/bin:$PATH"
-
-# env
-[ -f "$(dirname "$0")/.env" ] && source "$(dirname "$0")/.env"
 
 # graalvm
 export GRAALVM_HOME="$HOME/Developer/graalvm-jdk-25+37.1/Contents/Home"
