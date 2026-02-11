@@ -15,9 +15,8 @@ fi
 . "$(dirname "$0")/aliases.sh"
 
 # node
-export N_PREFIX="$HOME/.npm-packages"
-export PATH="$HOME/.npm-packages/bin:$PATH"
-export PNPM_HOME="$HOME/.npm-packages/pnpm"
+export N_PREFIX="$HOME/n"
+export PATH="$HOME/n/bin:$PATH"
 
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
