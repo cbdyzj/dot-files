@@ -1,5 +1,5 @@
-# dot-files
+# dotfiles
 
 ```sh
-. "$HOME/dot-files/zshrc.sh"
+. "$HOME/dotfiles/zshrc.sh"
 ```
