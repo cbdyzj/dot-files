@@ -17,6 +17,8 @@ if [ -d "$HOME/bin" ]; then
     export PATH="$HOME/bin:$PATH"
 fi
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # node
 export N_PREFIX="$HOME/n"
 export PATH="$HOME/n/bin:$PATH"
