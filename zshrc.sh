@@ -8,6 +8,7 @@ autoload -U compinit && compinit
 
 # aliases
 . "$(dirname "$0")/aliases.sh"
+. "$(dirname "$0")/ss.sh"
 
 # env
 [ -f "$(dirname "$0")/.env" ] && source "$(dirname "$0")/.env"
