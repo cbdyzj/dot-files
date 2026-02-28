@@ -30,11 +30,11 @@ export PATH="$HOME/.bun/bin:$PATH"
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# gradle
-alias gradle="\$HOME/gradle/gradle-9.1.0/bin/gradle"
-
 # python
 export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+
+# gradle
+alias gradle="\$HOME/Developer/gradle-9.3.1/bin/gradle"
 
 # graalvm
 export GRAALVM_HOME="$HOME/Developer/graalvm-jdk-25+37.1/Contents/Home"
