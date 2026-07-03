@@ -15,4 +15,4 @@ alias vimtmp='t=$(mktemp) && vim "$t" && echo "$t"'
 alias vimold='[ -f "$HOME/.viminfo" ] && grep "^>" "$HOME/.viminfo" | sed "s/^> //"'
 alias claude='claude --dangerously-skip-permissions'
 alias codex='codex --yolo'
-alias ship="opencode run --command ship"
+alias opencode-ship="opencode run --command ship"
