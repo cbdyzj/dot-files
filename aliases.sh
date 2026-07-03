@@ -10,10 +10,9 @@ alias ls-npm='npm -g ls --depth 0'
 alias ls-pnpm='pnpm -g ls --depth 0'
 alias pm2r="pm2 resurrect"
 alias use-python='export PATH="$HOME/Library/Python/3.9/bin:$PATH"'
-alias ai-ship="opencode run --command ship"
 alias ubuntu="docker run --rm -it public.ecr.aws/docker/library/ubuntu:24.04"
-alias claude-yolo='claude --dangerously-skip-permissions'
-alias codex-yolo='codex --yolo'
 alias vimtmp='t=$(mktemp) && vim "$t" && echo "$t"'
 alias vimold='[ -f "$HOME/.viminfo" ] && grep "^>" "$HOME/.viminfo" | sed "s/^> //"'
-
+alias claude='claude --dangerously-skip-permissions'
+alias codex='codex --yolo'
+alias ship="opencode run --command ship"
