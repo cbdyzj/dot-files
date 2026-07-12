@@ -16,3 +16,4 @@ alias vimold='[ -f "$HOME/.viminfo" ] && grep "^>" "$HOME/.viminfo" | sed "s/^> 
 alias claude='claude --dangerously-skip-permissions'
 alias codex='codex --yolo'
 alias opencode-ship="opencode run --command ship"
+alias genpass='LC_ALL=C tr -dc a-z0-9 < /dev/urandom | head -c 12; echo'
