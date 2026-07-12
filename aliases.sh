@@ -11,7 +11,7 @@ alias use-python='export PATH="$HOME/Library/Python/3.9/bin:$PATH"'
 alias vimtmp='t=$(mktemp) && vim "$t" && echo "$t"'
 alias vimold='[ -f "$HOME/.viminfo" ] && grep "^>" "$HOME/.viminfo" | sed "s/^> //"'
 alias genpass='LC_ALL=C tr -dc a-z0-9 < /dev/urandom | head -c 12; echo'
-alias pm2r="pm2 resurrect"
+alias pm2-resurrect="pm2 resurrect"
 
 alias code='open -b com.microsoft.VSCode'
 alias ubuntu="docker run --rm -it public.ecr.aws/docker/library/ubuntu:24.04"
