@@ -13,10 +13,8 @@ alias vimold='[ -f "$HOME/.viminfo" ] && grep "^>" "$HOME/.viminfo" | sed "s/^> 
 alias genpass='LC_ALL=C tr -dc a-z0-9 < /dev/urandom | head -c 12; echo'
 alias pm2-resurrect="pm2 resurrect"
 alias benv='bun -p "Bun.env[process.argv[1]]" --'
-
 alias code='open -b com.microsoft.VSCode'
 alias ubuntu="docker run --rm -it public.ecr.aws/docker/library/ubuntu:24.04"
 alias claude='claude --dangerously-skip-permissions'
 alias codex='codex --yolo'
-
 alias opencode-ship="opencode run --command ship"
